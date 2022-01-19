@@ -34,5 +34,46 @@ dd {
 }
 
 body {
-  background: #ccc;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+/* Main Styling */
+
+/* Main Nav */
+
+.main-nav {
+  height: 6rem;
+  background: #777;
+}
+
+/* Sub Nav */
+
+.sub-nav {
+  height: 3.5rem;
+  background: #ddd;
+}
+
+/* Main Content */
+
+main {
+  display: grid;
+  grid-template-columns: 5rem 3fr 5rem 2fr 5rem;
+  margin-top: 2rem;
+}
+
+/* Articles */
+
+.main-article {
+  grid-column: 2 / 3;
+  height: 350px; /* change */
+  background: #777;
+}
+
+/* Email Newsletter */
+
+.email-newsletter {
+  grid-column: 4 / 5;
+  height: 10rem; /* change */
+  background: #aaa;
 }
