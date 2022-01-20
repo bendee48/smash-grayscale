@@ -44,7 +44,7 @@ body {
 
 .main-nav {
   height: 6rem;
-  background: #777;
+  background: #555;
 }
 
 /* Sub Nav */
@@ -64,16 +64,44 @@ main {
 
 /* Articles */
 
-.main-article {
+.article-container {
   grid-column: 2 / 3;
-  height: 350px; /* change */
-  background: #777;
+  min-height: 200px;
+  border: 1px solid gray;
+}
+
+.main-article {
+  height:350px;
+  background: #666;
+}
+
+.sub-article {
+  margin-top: 2rem;
+  height: 150px;
+  background: #aaa;
 }
 
 /* Email Newsletter */
 
 .email-newsletter {
   grid-column: 4 / 5;
-  height: 10rem; /* change */
-  background: #aaa;
+  height: 700px;
+  background: #999;
+}
+
+/* Guides */
+
+.guides {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 5rem;
+  border: 1px solid black;
+}
+
+.guide-card {
+  width: 325px;
+  height: 425px;
+  border-radius: 10px;
+  background: #777;
 }
